@@ -15,5 +15,13 @@
             <menu:item id="i_warehouse_new" messageCode="global_menu_new" url="/warehouses?form" z="jEXZ/yJn0Z3E5MOEOY782i4fj58="/>
             <menu:item id="i_warehouse_list" messageCode="global_menu_list" url="/warehouses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="oPpqpAaOfVtxXDsG0MVGAEx0j4M="/>
         </menu:category>
+        <menu:category id="c_lottransfer" z="14WU0dL7YfOjV73guA3wK5UCN/Y=">
+            <menu:item id="i_lottransfer_new" messageCode="global_menu_new" url="/lottransfers?form" z="5kdo9SK7B+iCy4B2+1btBoFwLd0="/>
+            <menu:item id="i_lottransfer_list" messageCode="global_menu_list" url="/lottransfers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="xisVBA9vHggO8e88yAEhqMZqrDM="/>
+        </menu:category>
+        <menu:category id="c_warehousedest" z="nXu4/WhOunmfqu3G3+E/cDB/p10=">
+            <menu:item id="i_warehousedest_new" messageCode="global_menu_new" url="/warehousedests?form" z="qX3E2BWrKn5gIxg6fYPtY7h0zws="/>
+            <menu:item id="i_warehousedest_list" messageCode="global_menu_list" url="/warehousedests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Cs2NqKIU08o0fFVaauEKfVq1DVo="/>
+        </menu:category>
     </menu:menu>
 </div>
