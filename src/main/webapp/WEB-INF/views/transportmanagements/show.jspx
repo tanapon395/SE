@@ -4,5 +4,9 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_springsource_roo_warehouse_domain_TransportManagement" object="${transportmanagement}" path="/transportmanagements" z="/arv+EIdDe3zUYme67YYHMjDRQk=">
         <field:display field="em" id="s_com_springsource_roo_warehouse_domain_TransportManagement_em" object="${transportmanagement}" z="VRz/BkiI7HIay6pOT9AV4KCAyWE="/>
+        <field:display date="true" dateTimePattern="${transportManagement_deliverydate_date_format}" field="deliveryDate" id="s_com_springsource_roo_warehouse_domain_TransportManagement_DeliveryDate" object="${transportmanagement}" z="wPuoQIia3qAfaW0EkMvCmInnVLs="/>
+        <field:display date="true" dateTimePattern="${transportManagement_receivingdate_date_format}" field="receivingDate" id="s_com_springsource_roo_warehouse_domain_TransportManagement_receivingDate" object="${transportmanagement}" z="uK98eqUvr79cMyRy/fTcb2zXLRk="/>
+        <field:display field="vehicle" id="s_com_springsource_roo_warehouse_domain_TransportManagement_Vehicle" object="${transportmanagement}" z="c9NY4YRrWgAQx5PcnJhMf9iLyws="/>
+        <field:display field="equipmentSafety" id="s_com_springsource_roo_warehouse_domain_TransportManagement_equipmentSafety" object="${transportmanagement}" z="L+PDWrdw2bCdUh77K8vQvZ1rWM0="/>
     </page:show>
 </div>

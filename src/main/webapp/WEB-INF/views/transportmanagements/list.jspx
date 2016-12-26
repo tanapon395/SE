@@ -5,6 +5,10 @@
     <page:list id="pl_com_springsource_roo_warehouse_domain_TransportManagement" items="${transportmanagements}" z="JqdLnB4H5iX2KZ3zXDiC1JZw2G4=">
         <table:table data="${transportmanagements}" id="l_com_springsource_roo_warehouse_domain_TransportManagement" path="/transportmanagements" z="H7+1P2i/yZhersX9Jo8WfLZGeW4=">
             <table:column id="c_com_springsource_roo_warehouse_domain_TransportManagement_em" property="em" z="8Nqo+OzPRs7scXAJvdX541QTq4A="/>
+            <table:column date="true" dateTimePattern="${transportManagement_deliverydate_date_format}" id="c_com_springsource_roo_warehouse_domain_TransportManagement_DeliveryDate" property="deliveryDate" z="QTs0WSGpbSGxhnhZMx4TGx/Mg+I="/>
+            <table:column date="true" dateTimePattern="${transportManagement_receivingdate_date_format}" id="c_com_springsource_roo_warehouse_domain_TransportManagement_receivingDate" property="receivingDate" z="n68wTZlCRqT2j6cbVM5mEIPCzO8="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_TransportManagement_Vehicle" property="vehicle" z="9qrzX0xrp4NSgm4grd5JKMf0iaY="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_TransportManagement_equipmentSafety" property="equipmentSafety" z="LRJEUV0NkATXGJ3rSUJqtzmV/VM="/>
         </table:table>
     </page:list>
 </div>

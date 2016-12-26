@@ -4,5 +4,9 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_springsource_roo_warehouse_domain_TransportManagement" modelAttribute="transportManagement" path="/transportmanagements" versionField="Version" z="4AbXsNDOr1Dq3coB804aAo3jk1s=">
         <field:select field="em" id="c_com_springsource_roo_warehouse_domain_TransportManagement_em" itemValue="id" items="${employees}" multiple="true" path="/employees" z="uwTdds0Be0EBCQfMj73kNsHz72I="/>
+        <field:datetime dateTimePattern="${transportManagement_deliverydate_date_format}" field="DeliveryDate" id="c_com_springsource_roo_warehouse_domain_TransportManagement_DeliveryDate" z="s88QsvYcnzLFt+U4+zEsZVXeXZw="/>
+        <field:datetime dateTimePattern="${transportManagement_receivingdate_date_format}" field="receivingDate" id="c_com_springsource_roo_warehouse_domain_TransportManagement_receivingDate" z="odQC2IHlwaH3vR27Vq8xucFAz0Y="/>
+        <field:select field="Vehicle" id="c_com_springsource_roo_warehouse_domain_TransportManagement_Vehicle" items="${transportations}" path="transportations" z="swtDJzS6I1GOSohIpuRwZVxGTVg="/>
+        <field:select field="equipmentSafety" id="c_com_springsource_roo_warehouse_domain_TransportManagement_equipmentSafety" items="${safeproducts}" path="safeproducts" z="T8OpqeiEUELPSS85VzV0A05Dnfo="/>
     </form:update>
 </div>
