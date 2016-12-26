@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_warehouse_domain_Employee" object="${employee}" path="/employees" z="+oVdFRCKmJ91eDmqiiVvx9sY6u8=">
+        <field:display field="employeeid" id="s_com_springsource_roo_warehouse_domain_Employee_employeeid" object="${employee}" z="5YS6T4lLzw5gQQNOwB/KXZQqeTY="/>
+        <field:display field="employeename" id="s_com_springsource_roo_warehouse_domain_Employee_employeename" object="${employee}" z="bCT+mrFnyLER9LcV4ZGZ/MPgE8w="/>
+        <field:display field="email" id="s_com_springsource_roo_warehouse_domain_Employee_email" object="${employee}" z="8tGsS6uy2toBFh36fl11NXkf9LA="/>
+        <field:display field="tel" id="s_com_springsource_roo_warehouse_domain_Employee_tel" object="${employee}" z="hf0uRg3Z7asiS81z8dUIywIvAHQ="/>
+        <field:display field="address" id="s_com_springsource_roo_warehouse_domain_Employee_address" object="${employee}" z="pJqJZ5r+vG8YYLLfflmYpkIMMf0="/>
+        <field:display field="sex" id="s_com_springsource_roo_warehouse_domain_Employee_sex" object="${employee}" z="sJaBvKkqOCoP+Z/ywSP44C+5PRY="/>
+    </page:show>
+</div>

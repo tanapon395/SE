@@ -4,31 +4,38 @@ import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-import java.util.Date;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import org.springframework.format.annotation.DateTimeFormat;
+import javax.persistence.Enumerated;
 
 @RooJavaBean
 @RooToString
 @RooJpaActiveRecord
-public class ProductImport {
+public class Employee {
 
     /**
      */
     @NotNull
     @Size(min = 5)
-    private String productid;
+    private String employeeid;
 
     /**
      */
     @NotNull
-    private Integer numberimport;
+    private String employeename;
 
     /**
      */
-    @NotNull
-    @Temporal(TemporalType.TIMESTAMP)
-    @DateTimeFormat(style = "M-")
-    private Date dateimport;
+    private String email;
+
+    /**
+     */
+    private String tel;
+
+    /**
+     */
+    private String address;
+
+    /**
+     */
+    @Enumerated
+    private Sex sex;
 }
