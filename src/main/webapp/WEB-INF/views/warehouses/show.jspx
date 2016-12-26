@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_warehouse_domain_Warehouse" object="${warehouse}" path="/warehouses" z="xyS8J3sp0V/FUNWcrWwSWXryiuw=">
+        <field:display field="addresswh" id="s_com_springsource_roo_warehouse_domain_Warehouse_addresswh" object="${warehouse}" z="OxaL4kCZurbv0nmuam46kvFn9zc="/>
+        <field:display field="status" id="s_com_springsource_roo_warehouse_domain_Warehouse_status" object="${warehouse}" z="K2D48D+6+2T2RKdIV3B4gO1kMug="/>
+    </page:show>
+</div>

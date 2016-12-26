@@ -5,6 +5,8 @@
     <page:list id="pl_com_springsource_roo_warehouse_domain_ProductImport" items="${productimports}" z="Cc1gEnGSR+Zkx1CpJL5Ex6J43V8=">
         <table:table data="${productimports}" id="l_com_springsource_roo_warehouse_domain_ProductImport" path="/productimports" z="ngc8jr0alyM1ZrWqOqPIldpyp64=">
             <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_productid" property="productid" z="5lGKkclrnKGZ1k5+YyI/Bh0n+zA="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_numberimport" property="numberimport" z="lvGVATX0GDFGvz3hWlLrBZmAAmU="/>
+            <table:column date="true" dateTimePattern="${productImport_dateimport_date_format}" id="c_com_springsource_roo_warehouse_domain_ProductImport_dateimport" property="dateimport" z="AH/UAt/zESOHeFx77diuBebtQ3s="/>
         </table:table>
     </page:list>
 </div>

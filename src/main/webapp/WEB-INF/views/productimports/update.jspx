@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_springsource_roo_warehouse_domain_ProductImport" modelAttribute="productImport" path="/productimports" versionField="Version" z="g1X0AzP7b6lxNmiIloHrwgbDjdU=">
         <field:input field="productid" id="c_com_springsource_roo_warehouse_domain_ProductImport_productid" min="5" required="true" z="mShwcuGPvSZCXxHuMPPyImDyEgI="/>
+        <field:input field="numberimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_numberimport" required="true" validationMessageCode="field_invalid_integer" z="9MbcVBVlUVrHebuWHUs3ftpRFjU="/>
+        <field:datetime dateTimePattern="${productImport_dateimport_date_format}" field="dateimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_dateimport" required="true" z="J43HRqDVCF8FRI2h4Di9U3FHNdQ="/>
     </form:update>
 </div>

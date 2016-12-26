@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_warehouse_domain_Employee" modelAttribute="employee" path="/employees" versionField="Version" z="qLN8hmXPokNE2BNSNvBeI/Hy25Q=">
+        <field:input field="employeeid" id="c_com_springsource_roo_warehouse_domain_Employee_employeeid" min="5" required="true" z="G4v2pnpiPUGtFTfk/Na1/IcLdI0="/>
+        <field:input field="employeename" id="c_com_springsource_roo_warehouse_domain_Employee_employeename" required="true" z="ddr8VOMPGJAP1uFZ0DiV6s5eyhI="/>
+        <field:input field="email" id="c_com_springsource_roo_warehouse_domain_Employee_email" validationMessageCode="field_invalid_email" z="B7g8bERUp9uWgb+7b3OYgjtanRg="/>
+        <field:input field="tel" id="c_com_springsource_roo_warehouse_domain_Employee_tel" z="mNg8J2+mAOuwBALp0LWBtnIWrgQ="/>
+        <field:input field="address" id="c_com_springsource_roo_warehouse_domain_Employee_address" z="uVEPquMoL67IEYnp95Zyw7FC+5I="/>
+        <field:select field="sex" id="c_com_springsource_roo_warehouse_domain_Employee_sex" items="${sexes}" path="sexes" z="Ie/bpWZaVGDjJDtoUeLaFciedks="/>
+    </form:update>
+</div>

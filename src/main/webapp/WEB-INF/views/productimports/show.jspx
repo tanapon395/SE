@@ -4,5 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_springsource_roo_warehouse_domain_ProductImport" object="${productimport}" path="/productimports" z="TQPfWWQgTMAwtwNoAxqhjm+EBc0=">
         <field:display field="productid" id="s_com_springsource_roo_warehouse_domain_ProductImport_productid" object="${productimport}" z="oVu7z0HnrRMTsUWLmyJI6DxdQBM="/>
+        <field:display field="numberimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_numberimport" object="${productimport}" z="2pmyGPGGcd+aVYrkfHD5a2tGvRM="/>
+        <field:display date="true" dateTimePattern="${productImport_dateimport_date_format}" field="dateimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_dateimport" object="${productimport}" z="PBp6oC7ag4G+z4yS/8xkMbSLPcY="/>
     </page:show>
 </div>
