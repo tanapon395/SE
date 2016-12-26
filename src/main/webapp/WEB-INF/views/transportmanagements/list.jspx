@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_warehouse_domain_TransportManagement" items="${transportmanagements}" z="JqdLnB4H5iX2KZ3zXDiC1JZw2G4=">
+        <table:table data="${transportmanagements}" id="l_com_springsource_roo_warehouse_domain_TransportManagement" path="/transportmanagements" z="H7+1P2i/yZhersX9Jo8WfLZGeW4=">
+            <table:column id="c_com_springsource_roo_warehouse_domain_TransportManagement_em" property="em" z="8Nqo+OzPRs7scXAJvdX541QTq4A="/>
+        </table:table>
+    </page:list>
+</div>

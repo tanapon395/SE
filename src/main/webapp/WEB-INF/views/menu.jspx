@@ -23,5 +23,9 @@
             <menu:item id="i_warehousedest_new" messageCode="global_menu_new" url="/warehousedests?form" z="qX3E2BWrKn5gIxg6fYPtY7h0zws="/>
             <menu:item id="i_warehousedest_list" messageCode="global_menu_list" url="/warehousedests?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Cs2NqKIU08o0fFVaauEKfVq1DVo="/>
         </menu:category>
+        <menu:category id="c_transportmanagement" z="fieAb00MfOpg4eZfw+xHEnoi9Os=">
+            <menu:item id="i_transportmanagement_new" messageCode="global_menu_new" url="/transportmanagements?form" z="6W8E21oTp91xbyr78H3eQX4A6YY="/>
+            <menu:item id="i_transportmanagement_list" messageCode="global_menu_list" url="/transportmanagements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="y30mkYeBhsgUVg6vKVoQj9EJp2I="/>
+        </menu:category>
     </menu:menu>
 </div>
