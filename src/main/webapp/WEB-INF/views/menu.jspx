@@ -43,5 +43,13 @@
             <menu:item id="i_bill_new" messageCode="global_menu_new" url="/bills?form" z="cVovhzw6GT+ic6ihf14TyR5AdJ8="/>
             <menu:item id="i_bill_list" messageCode="global_menu_list" url="/bills?page=1&amp;size=${empty param.size ? 10 : param.size}" z="g/dBi1S+sB2EQX5WLDhE56E6Tr8="/>
         </menu:category>
+        <menu:category id="c_productorder" z="N3c45tNew+a/PEuCeMV4fdEAyT0=">
+            <menu:item id="i_productorder_new" messageCode="global_menu_new" url="/productorders?form" z="ClaGf5UFquEQnwSb9Fmi7iGw+HM="/>
+            <menu:item id="i_productorder_list" messageCode="global_menu_list" url="/productorders?page=1&amp;size=${empty param.size ? 10 : param.size}" z="a+U6cUqRIM8AS1aaOWY9tFe8GM0="/>
+        </menu:category>
+        <menu:category id="c_detailorder" z="gLu9yTef476QKHMm4fVDUaZPKhs=">
+            <menu:item id="i_detailorder_new" messageCode="global_menu_new" url="/detailorders?form" z="kDJykNNdmy8SdhzxmUDC5EnynFQ="/>
+            <menu:item id="i_detailorder_list" messageCode="global_menu_list" url="/detailorders?page=1&amp;size=${empty param.size ? 10 : param.size}" z="fqLxwKAHffS6kuCZWLOqRVmMabw="/>
+        </menu:category>
     </menu:menu>
 </div>

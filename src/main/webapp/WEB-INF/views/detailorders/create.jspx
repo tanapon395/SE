@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_sut_product_DetailOrder" modelAttribute="detailOrder" path="/detailorders" render="${empty dependencies}" z="Rcy3akA08aXiLHWdhUHS4lqqO6s=">
+        <field:input field="detialordernumber" id="c_com_sut_product_DetailOrder_detialordernumber" min="2" required="true" z="CxqOptaTpZu3NLdSLr7ehCNWVvs="/>
+        <field:datetime dateTimePattern="${detailOrder_datedelivery_date_format}" field="datedelivery" id="c_com_sut_product_DetailOrder_datedelivery" z="oXcuCsYmqZJ5N6wlSj8Qh3r/8hY="/>
+        <field:select field="products" id="c_com_sut_product_DetailOrder_products" itemValue="id" items="${productorders}" multiple="true" path="/productorders" z="3gqyGSVmtUGI/wZLe6U19KhXy8I="/>
+        <field:input field="price" id="c_com_sut_product_DetailOrder_price" validationMessageCode="field_invalid_number" z="L5lypmQFxb2MhV0tutE7GFhJ5CQ="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_sut_product_DetailOrder" render="${not empty dependencies}" z="YvXBiWFZZbc0oAJLlJeaFqS2lcE="/>
+</div>
