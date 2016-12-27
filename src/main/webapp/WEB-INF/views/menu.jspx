@@ -27,5 +27,21 @@
             <menu:item id="i_transportmanagement_new" messageCode="global_menu_new" url="/transportmanagements?form" z="6W8E21oTp91xbyr78H3eQX4A6YY="/>
             <menu:item id="i_transportmanagement_list" messageCode="global_menu_list" url="/transportmanagements?page=1&amp;size=${empty param.size ? 10 : param.size}" z="y30mkYeBhsgUVg6vKVoQj9EJp2I="/>
         </menu:category>
+        <menu:category id="c_billtransfer" z="XnJjYE3nWVIiCixj6T2rNzG4uns=">
+            <menu:item id="i_billtransfer_new" messageCode="global_menu_new" url="/billtransfers?form" z="qbs3jm4AuzJbRT9wx957nnw96DI="/>
+            <menu:item id="i_billtransfer_list" messageCode="global_menu_list" url="/billtransfers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7Y3eIFT+1jtfuts75MvrJqBl4jQ="/>
+        </menu:category>
+        <menu:category id="c_customer" z="Wa+bVSiDyYo/wX1nGU1B/z+OKhE=">
+            <menu:item id="i_customer_new" messageCode="global_menu_new" url="/customers?form" z="d9+YIotZHp6KZLGKwwnMVzPvh8k="/>
+            <menu:item id="i_customer_list" messageCode="global_menu_list" url="/customers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Yo9cUtyc7EUvbxwQ7EoeqXWaVJM="/>
+        </menu:category>
+        <menu:category id="c_tranfer" z="9y9T9ACVf3rqWhyyzBXi7vU8AQU=">
+            <menu:item id="i_tranfer_new" messageCode="global_menu_new" url="/tranfers?form" z="tVXdbTX3ZvW5YE4dNmkDtAiWXXY="/>
+            <menu:item id="i_tranfer_list" messageCode="global_menu_list" url="/tranfers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JGFiDIebwz+3npFZrMnUvs65+7Y="/>
+        </menu:category>
+        <menu:category id="c_bill" z="hAQcl5fPVV+gFU4o9uZs4YSdxCs=">
+            <menu:item id="i_bill_new" messageCode="global_menu_new" url="/bills?form" z="cVovhzw6GT+ic6ihf14TyR5AdJ8="/>
+            <menu:item id="i_bill_list" messageCode="global_menu_list" url="/bills?page=1&amp;size=${empty param.size ? 10 : param.size}" z="g/dBi1S+sB2EQX5WLDhE56E6Tr8="/>
+        </menu:category>
     </menu:menu>
 </div>

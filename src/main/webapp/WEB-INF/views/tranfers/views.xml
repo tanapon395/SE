@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="tranfers/list">
+        <put-attribute name="body" value="/WEB-INF/views/tranfers/list.jspx"/>
+    </definition>
+<definition extends="default" name="tranfers/show">
+        <put-attribute name="body" value="/WEB-INF/views/tranfers/show.jspx"/>
+    </definition>
+<definition extends="default" name="tranfers/create">
+        <put-attribute name="body" value="/WEB-INF/views/tranfers/create.jspx"/>
+    </definition>
+<definition extends="default" name="tranfers/update">
+        <put-attribute name="body" value="/WEB-INF/views/tranfers/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_warehouse_domain_Customer" items="${customers}" z="sXWUAAln6QW21YRnkgCC0p4Crxc=">
+        <table:table data="${customers}" id="l_com_springsource_roo_warehouse_domain_Customer" path="/customers" z="txiHcQ5/Buh6H3EaQRzVcn2IzBU=">
+            <table:column id="c_com_springsource_roo_warehouse_domain_Customer_name" property="name" z="j0j/zsK0XFNGmbMR4dI1MjPQgfQ="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Customer_tel" property="tel" z="0CeIvciNZnSmzbyC7PjZf815js8="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Customer_email" property="email" z="OZqNa03cplHB3j55Pr663uFdV1E="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Customer_address" property="address" z="L0xHAc8fzx8EU8B8ZCXvMJ9Zsmk="/>
+        </table:table>
+    </page:list>
+</div>

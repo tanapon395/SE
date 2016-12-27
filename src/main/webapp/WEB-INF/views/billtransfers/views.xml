@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="billtransfers/list">
+        <put-attribute name="body" value="/WEB-INF/views/billtransfers/list.jspx"/>
+    </definition>
+<definition extends="default" name="billtransfers/show">
+        <put-attribute name="body" value="/WEB-INF/views/billtransfers/show.jspx"/>
+    </definition>
+<definition extends="default" name="billtransfers/create">
+        <put-attribute name="body" value="/WEB-INF/views/billtransfers/create.jspx"/>
+    </definition>
+<definition extends="default" name="billtransfers/update">
+        <put-attribute name="body" value="/WEB-INF/views/billtransfers/update.jspx"/>
+    </definition>
+</tiles-definitions>

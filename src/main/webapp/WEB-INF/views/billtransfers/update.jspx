@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_warehouse_domain_BillTransfer" modelAttribute="billTransfer" path="/billtransfers" versionField="Version" z="DYZrJWltz8u4/lVWFkvAYC26pvw=">
+        <field:input field="idtransfer" id="c_com_springsource_roo_warehouse_domain_BillTransfer_idtransfer" z="YWG5oNliPU0p7c8eKNwyHjXFkK4="/>
+    </form:update>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_warehouse_domain_Bill" object="${bill}" path="/bills" z="uK8erV54lSuWwIkjwD0qmIAk/4U=">
+        <field:display field="billnumber" id="s_com_springsource_roo_warehouse_domain_Bill_billnumber" object="${bill}" z="ghYF30ljZ/oxwEGd9lrhgjLXUek="/>
+        <field:display date="true" dateTimePattern="${bill_billdate_date_format}" field="billdate" id="s_com_springsource_roo_warehouse_domain_Bill_billdate" object="${bill}" z="pGpWZcguu9SlrIBQevptlki224k="/>
+        <field:display field="totalprice" id="s_com_springsource_roo_warehouse_domain_Bill_totalprice" object="${bill}" z="QU+CSrCikxnnDjEjgq9ha6Q8MxE="/>
+    </page:show>
+</div>

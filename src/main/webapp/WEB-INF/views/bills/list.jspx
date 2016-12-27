@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_warehouse_domain_Bill" items="${bills}" z="hR0F9ycu8gYL8knR61VKqFJ62xI=">
+        <table:table data="${bills}" id="l_com_springsource_roo_warehouse_domain_Bill" path="/bills" z="jep3I5biyKrliNganborkiu4SBo=">
+            <table:column id="c_com_springsource_roo_warehouse_domain_Bill_billnumber" property="billnumber" z="qbUsSt7ObsCO0Fq8TV7RLfir7s4="/>
+            <table:column date="true" dateTimePattern="${bill_billdate_date_format}" id="c_com_springsource_roo_warehouse_domain_Bill_billdate" property="billdate" z="NIWkRLH8QYIWShel+2qME08AwtM="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Bill_totalprice" property="totalprice" z="exjUQkAqwgidhfidXdZaWu4qSD8="/>
+        </table:table>
+    </page:list>
+</div>
