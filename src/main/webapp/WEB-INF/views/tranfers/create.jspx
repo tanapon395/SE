@@ -4,6 +4,11 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_springsource_roo_warehouse_domain_Tranfer" modelAttribute="tranfer" path="/tranfers" render="${empty dependencies}" z="vwGwSRVcq8z09VABx9/O9GTiEcA=">
         <field:input field="ordertransfer" id="c_com_springsource_roo_warehouse_domain_Tranfer_ordertransfer" z="0JJDUSF5SFjAQL7R7Cc3tQaZqIE="/>
+        <field:select field="product" id="c_com_springsource_roo_warehouse_domain_Tranfer_product" itemValue="id" items="${products}" path="/products" z="rpBSidV7qDH1NRAkHEE2oNh46RY="/>
+        <field:input field="amount" id="c_com_springsource_roo_warehouse_domain_Tranfer_amount" validationMessageCode="field_invalid_integer" z="AOMimYHgBcwzQXDuK4W+s8oV9tA="/>
+        <field:select field="warehouse" id="c_com_springsource_roo_warehouse_domain_Tranfer_warehouse" itemValue="id" items="${warehouses}" path="/warehouses" z="foHmy0zIkakzOW84ahiLfJfkfLo="/>
+        <field:select field="warehousedest" id="c_com_springsource_roo_warehouse_domain_Tranfer_warehousedest" itemValue="id" items="${warehousedests}" path="/warehousedests" z="G7q0ut0M/2iEhdXWj83wgw2rS9w="/>
+        <field:select field="employee" id="c_com_springsource_roo_warehouse_domain_Tranfer_employee" itemValue="id" items="${employees}" path="/employees" z="2pzS6JcXbNzRlCGlyKLL7PIXXzo="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_springsource_roo_warehouse_domain_Tranfer" render="${not empty dependencies}" z="ORseB+imr7KU5qZhWwgeraDXt/c="/>
 </div>

@@ -4,5 +4,10 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_springsource_roo_warehouse_domain_Tranfer" object="${tranfer}" path="/tranfers" z="oxVLbLc4TSNtygJ2OdvOOXQUiU4=">
         <field:display field="ordertransfer" id="s_com_springsource_roo_warehouse_domain_Tranfer_ordertransfer" object="${tranfer}" z="jgrBrRW9CEKnwFV9sI3ucP0ofj8="/>
+        <field:display field="product" id="s_com_springsource_roo_warehouse_domain_Tranfer_product" object="${tranfer}" z="IuykYO7VibdhzLlfoiDT/EJRcAg="/>
+        <field:display field="amount" id="s_com_springsource_roo_warehouse_domain_Tranfer_amount" object="${tranfer}" z="lt0eNO7NXi0JS14avI9YLO0cyBE="/>
+        <field:display field="warehouse" id="s_com_springsource_roo_warehouse_domain_Tranfer_warehouse" object="${tranfer}" z="dkSc2uuurBwN20GCBRX6zezwOK0="/>
+        <field:display field="warehousedest" id="s_com_springsource_roo_warehouse_domain_Tranfer_warehousedest" object="${tranfer}" z="iKVS/IZJGwWvhJ2wWEo9MiiZ4Xk="/>
+        <field:display field="employee" id="s_com_springsource_roo_warehouse_domain_Tranfer_employee" object="${tranfer}" z="VzaEMLje3LlvpRSPfbd8/j5thgg="/>
     </page:show>
 </div>

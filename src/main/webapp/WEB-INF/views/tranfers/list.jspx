@@ -5,6 +5,11 @@
     <page:list id="pl_com_springsource_roo_warehouse_domain_Tranfer" items="${tranfers}" z="rFXuMGdBoinNYJ4ypkSxeIOb9BE=">
         <table:table data="${tranfers}" id="l_com_springsource_roo_warehouse_domain_Tranfer" path="/tranfers" z="TyNzHb6cBj8NGuZEOUa7Sfi8Dss=">
             <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_ordertransfer" property="ordertransfer" z="mzez3WrceNEiTXmyxwUJXl1yuic="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_product" property="product" z="NoETcW9Ik6JVXdIZPWqrbyl+PqY="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_amount" property="amount" z="cGPhK1t2bKeYXPXiYOu+eEOpK54="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_warehouse" property="warehouse" z="lwDMy4jaQPWmt5KKGIbaVchDXbw="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_warehousedest" property="warehousedest" z="HUnsJQQY/cMkcuoUvZoLP2zKymw="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_Tranfer_employee" property="employee" z="E4DWdBt6Mez+I+gzF7OzmJlIMXo="/>
         </table:table>
     </page:list>
 </div>
