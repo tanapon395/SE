@@ -6,5 +6,8 @@
         <field:input field="productid" id="c_com_springsource_roo_warehouse_domain_ProductImport_productid" min="5" required="true" z="mShwcuGPvSZCXxHuMPPyImDyEgI="/>
         <field:input field="numberimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_numberimport" required="true" validationMessageCode="field_invalid_integer" z="9MbcVBVlUVrHebuWHUs3ftpRFjU="/>
         <field:datetime dateTimePattern="${productImport_dateimport_date_format}" field="dateimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_dateimport" required="true" z="J43HRqDVCF8FRI2h4Di9U3FHNdQ="/>
+        <field:select field="productimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_productimport" itemValue="id" items="${products}" path="/products" z="R1kdNKTmk5nGJ8EhLJ1p5146Jiw="/>
+        <field:select field="employeeimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_employeeimport" itemValue="id" items="${employees}" path="/employees" z="Qs94L7lP83gp259ZrXd8X1cUxG4="/>
+        <field:select field="warehouseimport" id="c_com_springsource_roo_warehouse_domain_ProductImport_warehouseimport" itemValue="id" items="${warehouses}" path="/warehouses" z="k0C6y3BMyJcLjKqEEh6UcR9Qh4Y="/>
     </form:update>
 </div>

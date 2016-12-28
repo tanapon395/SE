@@ -7,6 +7,9 @@
             <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_productid" property="productid" z="5lGKkclrnKGZ1k5+YyI/Bh0n+zA="/>
             <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_numberimport" property="numberimport" z="lvGVATX0GDFGvz3hWlLrBZmAAmU="/>
             <table:column date="true" dateTimePattern="${productImport_dateimport_date_format}" id="c_com_springsource_roo_warehouse_domain_ProductImport_dateimport" property="dateimport" z="AH/UAt/zESOHeFx77diuBebtQ3s="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_productimport" property="productimport" z="Jglqn4Gv1wyABNcmIoVYSbVceTY="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_employeeimport" property="employeeimport" z="jEDuVd+Alx8/bmKB5GbrA91ngmY="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_ProductImport_warehouseimport" property="warehouseimport" z="3Mr3e94EBNg4s0xcjisS8zqdAiA="/>
         </table:table>
     </page:list>
 </div>

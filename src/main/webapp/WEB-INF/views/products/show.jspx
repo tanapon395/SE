@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_warehouse_domain_Product" object="${product}" path="/products" z="zr8uXSNDLb3ScnUMQeVuzkpJP3w=">
+        <field:display field="proid" id="s_com_springsource_roo_warehouse_domain_Product_proid" object="${product}" z="w0/Hs6estZmNTAw7UqJYltb0mcc="/>
+        <field:display field="proname" id="s_com_springsource_roo_warehouse_domain_Product_proname" object="${product}" z="ZkQ2rfXvIbJ3mccDB2VLgcNzh10="/>
+        <field:display field="price" id="s_com_springsource_roo_warehouse_domain_Product_price" object="${product}" z="WqKKUgNlWeE9midi3O0pCkMLRSs="/>
+        <field:display field="manufacturer" id="s_com_springsource_roo_warehouse_domain_Product_manufacturer" object="${product}" z="jrwwhXeUnQy/ieMyB5bGIeqLbJs="/>
+        <field:display date="true" dateTimePattern="${product_manufacturerdate_date_format}" field="manufacturerdate" id="s_com_springsource_roo_warehouse_domain_Product_manufacturerdate" object="${product}" z="6P6+5x4G8cxRZCbvDs5pq/4QhFc="/>
+        <field:display field="type" id="s_com_springsource_roo_warehouse_domain_Product_type" object="${product}" z="yeLDzHsutrG4MK7A7rvxDRCe2a4="/>
+    </page:show>
+</div>

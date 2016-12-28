@@ -13,38 +13,37 @@ import javax.persistence.ManyToOne;
 @RooJavaBean
 @RooToString
 @RooJpaActiveRecord
-public class ProductImport {
+public class Product {
 
     /**
      */
     @NotNull
     @Size(min = 5)
-    private String productid;
+    private String proid;
 
     /**
      */
     @NotNull
-    private Integer numberimport;
+    private String proname;
 
     /**
      */
     @NotNull
+    private Float price;
+
+    /**
+     */
+    @NotNull
+    private String manufacturer;
+
+    /**
+     */
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
-    private Date dateimport;
+    private Date manufacturerdate;
 
     /**
      */
     @ManyToOne
-    private Product productimport;
-
-    /**
-     */
-    @ManyToOne
-    private Employee employeeimport;
-
-    /**
-     */
-    @ManyToOne
-    private Warehouse warehouseimport;
+    private ProductType type;
 }

@@ -6,5 +6,8 @@
         <field:display field="productid" id="s_com_springsource_roo_warehouse_domain_ProductImport_productid" object="${productimport}" z="oVu7z0HnrRMTsUWLmyJI6DxdQBM="/>
         <field:display field="numberimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_numberimport" object="${productimport}" z="2pmyGPGGcd+aVYrkfHD5a2tGvRM="/>
         <field:display date="true" dateTimePattern="${productImport_dateimport_date_format}" field="dateimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_dateimport" object="${productimport}" z="PBp6oC7ag4G+z4yS/8xkMbSLPcY="/>
+        <field:display field="productimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_productimport" object="${productimport}" z="wxE+gxyLiQDrBHu+rtrePwDy26I="/>
+        <field:display field="employeeimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_employeeimport" object="${productimport}" z="b8q8ZgBbqeCtbBTfDH/82h/97GY="/>
+        <field:display field="warehouseimport" id="s_com_springsource_roo_warehouse_domain_ProductImport_warehouseimport" object="${productimport}" z="+psLHTom6CN9HRm/6PAJvRhccXI="/>
     </page:show>
 </div>
