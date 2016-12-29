@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_springsource_roo_warehouse_domain_DefectiveProductDetection" modelAttribute="defectiveProductDetection" path="/defectiveproductdetections" render="${empty dependencies}" z="hBXuXLLYUpYw67qOdeTTDsJ6reE=">
+        <field:select field="productInfo" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_productInfo" itemValue="id" items="${products}" multiple="true" path="/products" z="dL8Z59CZlK4Oyew1JTiOOa9ez/E="/>
+        <field:select field="defectionStatus" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_defectionStatus" items="${defectionstatuses}" path="defectionstatuses" z="/GOTmQ7EFX2O01LYHoBbHTam0/8="/>
+        <field:checkbox field="wasSentStatus" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_wasSentStatus" z="m/0hyasevR6HjRpTZoGosLZpywI="/>
+        <field:input field="billID" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_billID" required="true" z="dHDjYR8zyCZVH8BQkCV+n4I/qXA="/>
+        <field:select field="employee" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_employee" itemValue="id" items="${employees}" path="/employees" z="EPEBRmf1MLa+jvjCo+Ct7/MRuy4="/>
+        <field:datetime dateTimePattern="${defectiveProductDetection_checkingdate_date_format}" field="checkingDate" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_checkingDate" z="o0ES04jGrPoajLNVg0Ii+PqNMaU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_springsource_roo_warehouse_domain_DefectiveProductDetection" render="${not empty dependencies}" z="kSfH+c6PQpzLV1neNYjuFGiVs04="/>
+</div>

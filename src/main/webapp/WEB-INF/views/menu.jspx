@@ -63,5 +63,9 @@
             <menu:item id="i_billimport_new" messageCode="global_menu_new" url="/billimports?form" z="CRHmj6I3p/F85ul7mem3BQgRlac="/>
             <menu:item id="i_billimport_list" messageCode="global_menu_list" url="/billimports?page=1&amp;size=${empty param.size ? 10 : param.size}" z="R/GYvf/Po/5fbb96TP0mfHWE8LA="/>
         </menu:category>
+        <menu:category id="c_defectiveproductdetection" z="mSe0B1+kSek9FsN3N2t1W09cSGI=">
+            <menu:item id="i_defectiveproductdetection_new" messageCode="global_menu_new" url="/defectiveproductdetections?form" z="337bk34xk+blPosRLLrDgNDfc24="/>
+            <menu:item id="i_defectiveproductdetection_list" messageCode="global_menu_list" url="/defectiveproductdetections?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7kHl8U9jWFjI6bZzy1HjE86Tuyw="/>
+        </menu:category>
     </menu:menu>
 </div>

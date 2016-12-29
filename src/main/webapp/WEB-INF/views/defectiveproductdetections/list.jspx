@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_warehouse_domain_DefectiveProductDetection" items="${defectiveproductdetections}" z="D/pDQfH5eRDKVyjT4ExECRjScTI=">
+        <table:table data="${defectiveproductdetections}" id="l_com_springsource_roo_warehouse_domain_DefectiveProductDetection" path="/defectiveproductdetections" z="aIEvi15RPMOlRrtpBHm+KPFK2OE=">
+            <table:column id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_productInfo" property="productInfo" z="+ruW7yYcpcUcqPmPTZ9njNt3Tx4="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_defectionStatus" property="defectionStatus" z="sRbBcItiaoYmcSPgvUObfTnmTVU="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_wasSentStatus" property="wasSentStatus" z="3SswluJRKTSnTAWLvENgqxD2reM="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_billID" property="billID" z="4CXYQjxL9YJd7b7TbMj2tJrv/Mk="/>
+            <table:column id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_employee" property="employee" z="9Hlf/wKNFXUnU7oEMMU1aDZEyzo="/>
+            <table:column date="true" dateTimePattern="${defectiveProductDetection_checkingdate_date_format}" id="c_com_springsource_roo_warehouse_domain_DefectiveProductDetection_checkingDate" property="checkingDate" z="vKT1McYyWNso7NZMpsGdU6uoNfs="/>
+        </table:table>
+    </page:list>
+</div>

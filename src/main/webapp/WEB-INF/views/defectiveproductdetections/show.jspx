@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_warehouse_domain_DefectiveProductDetection" object="${defectiveproductdetection}" path="/defectiveproductdetections" z="mtgDy+/Z0G1Z4sQJV5AleJhhMtc=">
+        <field:display field="productInfo" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_productInfo" object="${defectiveproductdetection}" z="peP63lgF8Fnp7awDgHvEAKHErZQ="/>
+        <field:display field="defectionStatus" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_defectionStatus" object="${defectiveproductdetection}" z="ujcyLZ/RCgYKHANuOjyojwIr4AI="/>
+        <field:display field="wasSentStatus" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_wasSentStatus" object="${defectiveproductdetection}" z="XdTXrr2KpZo0VsPe75PRXlWemlQ="/>
+        <field:display field="billID" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_billID" object="${defectiveproductdetection}" z="tGy7h9rkD0XkLZWL/Lqw7bKS3UU="/>
+        <field:display field="employee" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_employee" object="${defectiveproductdetection}" z="V7RtdeWmlF89yfJPO2O8TBzjgSs="/>
+        <field:display date="true" dateTimePattern="${defectiveProductDetection_checkingdate_date_format}" field="checkingDate" id="s_com_springsource_roo_warehouse_domain_DefectiveProductDetection_checkingDate" object="${defectiveproductdetection}" z="LFQ0J4Oa/uRuq54dA1kF7iww1FU="/>
+    </page:show>
+</div>
